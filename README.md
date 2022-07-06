@@ -1,1 +1,1 @@
-# landing-page
+This is an assignment from The Odin Project. The objective is to create a landing page from scratch.
