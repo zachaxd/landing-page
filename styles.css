@@ -8,10 +8,30 @@ ul {
     gap: 16px;
 }
 
+h1 {
+    font-size: 40px;
+    margin: auto;
+}
+.herotop {
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.mainimg {
+    width: auto;
+    height: 200px;
+}
+
+p {
+    margin: auto;
+}
+
 body {
     display:flex;
     flex-direction:column;
     font-family:  Roboto, sans-serif;
+    margin: 0px;
 }
 
 a:link {
@@ -21,9 +41,9 @@ a:link {
 
 .top {
     background-color:#1F2937;
+    padding: 90px;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-between;
 }
 
 .hero,
@@ -31,16 +51,12 @@ a:link {
     color: white;
 }
 
-.hero {
-    font-weight: 800px;
-    display: flex;
-}
-
 .herobutton {
     background-color: #3882F6;
     border-radius: 8px;
     border: 0px;
-    padding: 0 20px;
+    padding: 10px;
+    max-width: 120px;
     font-weight: bold;
 }
 
@@ -60,24 +76,25 @@ a:link {
     padding: 24px;
   }
 
-img {
+.info1 {
     width: 140px;
     height: auto;
     border: 3px solid #3882F6;
     border-radius: 8px;
   }
 
-  .images {
+.images {
       padding: 40px;
   }
-  .info {
+
+.info {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
   }
 
-  .text {
+.text {
       max-width: 200px;
       padding: 20px;
       align-items: center;
@@ -101,38 +118,61 @@ img {
 
 .quotetext {
     font-style:italic;
-    font-size:30px;
+    font-size: 30px;
+    display: flex;
+}
+
+.quotecontainer {
+    margin: 2 2%;
+    display: flex;
+    flex-direction:column;
+}
+
+.thor2 {
+    text-align: right;
+    margin: auto 10px;
 }
 
 .bot {
     background-color:#3882F6;
     color: white;
-    padding: 80px;
+    padding: 50px;
     border-radius: 8px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 8% 16%;
+    margin: 8% 12%;
+}
+
+.textcontainer {
+    display:flex;
+    flex-direction: column;
 }
 
 .ctabutton {
     padding: 8px 24px;
     border-radius: 8px;
     background-color:transparent;
-    border-color:white;
     font-weight: bold;
+    border: solid white;
+    border-width: 2px;
   }
 
-  .cta {
+.cta {
       font-weight: bold;
       font-size: 20px;
+      padding-bottom: 2px;
   }
+
+.botbutton {
+    display:flex;
+    align-items:flex-end;
+}
 
 .footer {
     background-color:#1F2937;
     color:white;
     display:flex;
     justify-content: center;
-    padding: 24px;
+    padding: 30px;
     font-size: 14px;
 }
