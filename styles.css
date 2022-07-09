@@ -5,24 +5,44 @@ ul {
     display: flex;
     margin: 0px;
     padding: 0px;
-    gap: 16px;
+    gap: 22px;
 }
 
 h1 {
     font-size: 40px;
     margin: auto;
+    margin-bottom: -5px;
 }
 .herotop {
     display:flex;
     flex-direction: column;
     max-width: 400px;
+    margin: 5px 0px;
+}
+
+.leftcontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logotext {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .mainimg {
-    width: auto;
-    height: 200px;
+    height: auto;
+    max-height: 200px;
+    width: 500px;
 }
 
+.logo {
+    max-height: 32px;
+    width: auto;
+}
 p {
     margin: auto;
 }
@@ -41,7 +61,7 @@ a:link {
 
 .top {
     background-color:#1F2937;
-    padding: 90px;
+    padding: 120px 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -55,6 +75,7 @@ a:link {
     background-color: #3882F6;
     border-radius: 8px;
     border: 0px;
+    margin: 5px 0px;
     padding: 10px;
     max-width: 120px;
     font-weight: bold;
@@ -74,6 +95,7 @@ a:link {
     align-items: center;
     gap: 24px;
     padding: 24px;
+    margin: 0 20%;
   }
 
 .info1 {
@@ -97,19 +119,22 @@ a:link {
 .text {
       max-width: 200px;
       padding: 20px;
+      display: flex;
+      text-align: center;
       align-items: center;
+      justify-content: center;
   }
 
 .header {
     background-color:#1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 20px 300px;
 }
 
 .quote {
     display:flex;
-    padding: 80px;
+    padding: 5% 25%;
     flex-wrap: wrap;
     background-color: #E5E7EB;
     align-items: center;
@@ -130,7 +155,7 @@ a:link {
 
 .thor2 {
     text-align: right;
-    margin: auto 10px;
+    margin: 20px;
 }
 
 .bot {
